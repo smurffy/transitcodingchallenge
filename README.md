@@ -32,7 +32,7 @@ If you'd like to use an already existing function (can be found in the teslacodi
     import transitcodingchallenge.utils as utils
 
     api = utils.ApiUtils()
-    sql = utils.SqlUtils(user_name=user_name,<
+    sql = utils.SqlUtils(user_name=user_name,
                             password=password,
                             host=host,
                             port=port,
