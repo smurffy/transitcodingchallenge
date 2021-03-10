@@ -1,7 +1,12 @@
-<b>Options on How to Run:</b><br>
+<b>Options for how to install requirements:</b><br>
 ```
     sudo python3 setup.py install
     
+    sudo pip3 install -r transitcodingchallenge/requirements.txt
+```
+
+<b>Options on How to Run:</b><br>
+```
     sudo python3 main.py   ( you will be prompted for a mysql user name and password )
     
     sudo python3 main.py -ho <host> -po <port> -db <database name>
